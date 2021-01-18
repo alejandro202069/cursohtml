@@ -1,15 +1,29 @@
 #cabezeraweb{
     background-color: darkgreen;
+    padding-left: 100px;
 }
 #navegacion1{
     background-color: darksalmon;
 }
 #barralateral{
     background-color: deepskyblue;
+    float:left;
+    height:885px ;
 }
 #contenidoprincipal{
     background-color: lightcoral;
+    margin-left: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
 }
 #pie{
     background-color: peru;
+    clear: both;
+    margin-top: 50px;
 }
+li{
+    background-color: red;
+    display: inline;
+}
+
