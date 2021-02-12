@@ -45,10 +45,10 @@
         li:last-child{
             color: orange;
         }
-        #mio:hover{
-            -webkit-transform: rotate(50deg);
+        #frutas:hover{
+           color: darkblue;
         }
-        }
+        
     /*tipo de letras*/
     /*aplicacion de una fuente propia*/
         @font-face {
@@ -56,16 +56,17 @@
             src:url('Oswald-Bold.ttf');
         }
         #mio{
-            -webkit-transform: scale(0.6);/*las letras de escala*/
+            transform: scale(0.3);/*las letras de escala*/
         }
         #tuyo{
-            -webkit-transform: scale(1,-1);/*invierte letras*/
+            transform: scale(1,-1);/*invierte letras*/
             
         } 
         #ellos{
-            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
             color:rgb(0,30,80,0.8);
         }
+
         </style>
 </head>
 <body>
@@ -76,7 +77,7 @@
  <p name="tusElementos">ESTA MUY BIEN</p>
  <p name="elementosMis"> Esta muy requetebien</p>
  <ol>
-     <li>FRUTOS SECOS</li>
+     <li id="frutas">FRUTOS SECOS</li>
      <LI><p>manzanas</p></LI>
      <li><p>bananas</p></li>
      <li><p>limon</p></li>
