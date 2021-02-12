@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muestra css</title>
+    <style>
+        
+     /*aplicacion */   
+        p[name="miselementos"]{
+            color:crimson;
+            width: 100%;
+            background:-webkit-radial-gradient(center,ellipse,#00F 50%, #000 50%);/*marcamos el degradado radial 50/50*/
+            text-align: center;
+            font: outline;
+            font:bold 36px verdana;
+            text-shadow: sienna 2px 3px ;
+    
+        }
+    /*selectores*/
+        p[name^="tusElementos"]{
+            color: rgb(125,200,80,0.8);/*transparencia del texto en el ultimo escalon*/
+            width: 100%;
+            
+        }
+        p[name$="elementosMis"]{
+            width: 50%;
+            background:-webkit-linear-gradient(left,#00F 90%,#3FF 10%);/*marcamos el degradado lineal 90/10*/
+            text-align: center;
+            font: xx-large;
+            margin: 15px auto;
+            padding: 15px;
+            border: orange solid 3px;
+            font: bold 36px "miPropiafuente";
+            
+
+        }
+    /*pseudoclases*/
+        p:nth-child(5){
+            color: fuchsia;
+        }
+        li:nth-child(1){
+            color: maroon;
+        }
+        li:last-child{
+            color: orange;
+        }
+        #mio:hover{
+            -webkit-transform: rotate(50deg);
+        }
+        }
+    /*tipo de letras*/
+    /*aplicacion de una fuente propia*/
+        @font-face {
+            font-family:'miPropiaFuente';
+            src:url('Oswald-Bold.ttf');
+        }
+        #mio{
+            -webkit-transform: scale(0.6);/*las letras de escala*/
+        }
+        #tuyo{
+            -webkit-transform: scale(1,-1);/*invierte letras*/
+            
+        } 
+        #ellos{
+            -webkit-transform: rotate(30deg);
+            color:rgb(0,30,80,0.8);
+        }
+        </style>
+</head>
+<body>
+ <h1>LO MEJOR ESTA POR VENIR</h1>  
+ 
+ <p name="miselementos">HOLA</p>
+ <p name="tusElementos">JOYA MAMA</p>
+ <p name="tusElementos">ESTA MUY BIEN</p>
+ <p name="elementosMis"> Esta muy requetebien</p>
+ <ol>
+     <li>FRUTOS SECOS</li>
+     <LI><p>manzanas</p></LI>
+     <li><p>bananas</p></li>
+     <li><p>limon</p></li>
+ </ol>
+
+ <p id="mio">COSAS GRANDES</p>
+ <p id="tuyo">TUS COSAS</p>
+ <p id="ellos">LAS COSAS MALAS</p>
+</body>
+</html>
