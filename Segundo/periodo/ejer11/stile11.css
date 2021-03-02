@@ -1,0 +1,22 @@
+body{
+    background-color:black;
+}
+header{
+    color: indianred;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+aside {
+    background-color: coral;
+    width: 20%;
+}
+section{
+    background-color: darkseagreen;
+    width: 50%;
+}
+footer{
+    background-color: green;
+}
