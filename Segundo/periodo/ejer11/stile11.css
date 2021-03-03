@@ -9,25 +9,34 @@ header{
     box-shadow: #8cc4d2 10px 10px 5px;
     background: -webkit-linear-gradient(top,#666,#999);
 }
-nav{
-    color: gold;
-    text-align: center;
-    margin:10px 0px 0px 30px;
-}
+
  h1{
     font-size: 1.6em ;
     color: magenta;
     text-align: center;
   
 }
+nav {
+    margin-left: -33px;
+    clear: both;
+    font-family: cursive;
+    text-align: center;
+}
+a{
+    color: greenyellow;
+    font-family: cursive;
+}
 img{
     width: 50%;
 }
-
+li{
+    font-family: cursive;
+    color: maroon;
+}
 
 aside {
-    background-color: coral;
-    padding: 10px 20px 20px 0px;
+    background-color: salmon;
+    padding: 10px 20px -10px 0px;
     width: 30%;
    
     
