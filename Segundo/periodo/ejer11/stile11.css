@@ -2,21 +2,55 @@ body{
     background-color:black;
 }
 header{
-    color: indianred;
+    color:mediumblue;
     text-align: center;
     font-size: 30px;
+    border-radius: 30px;
+    box-shadow: #8cc4d2 10px 10px 5px;
+    background: -webkit-linear-gradient(top,#666,#999);
 }
-
+nav{
+    color: gold;
+    text-align: center;
+    margin:10px 0px 0px 30px;
+}
+ h1{
+    font-size: 1.6em ;
+    color: magenta;
+    text-align: center;
+  
+}
+img{
+    width: 50%;
+}
 
 
 aside {
     background-color: coral;
-    width: 20%;
+    padding: 10px 20px 20px 0px;
+    width: 30%;
+   
+    
 }
 section{
+    float: right;
     background-color: darkseagreen;
-    width: 50%;
+    width: 68%;
+    padding: 30px 0px 30px 0px;
+    margin: -150px 0px 30px 0px;
+    text-align: center;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    color: red;
 }
 footer{
+    clear: both;
     background-color: green;
+   text-align: center;
+}
+p [pastel="rico"]{
+    font-size: 3.6em;
+    color: orangered;
 }
